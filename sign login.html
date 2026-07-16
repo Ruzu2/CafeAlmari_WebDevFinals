@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+    <div id="loginPage">
+
+    <h1>Log In</h1>
+
+    <p>
+        New to this site?
+        <a href="#" id="showSignup">Sign Up</a>
+    </p>
+
+    <div id="social">
+
+        <button class="social-btn">
+            <img src="images/google.webp" alt="Google">
+            Log in with Google
+        </button>
+
+        <button class="social-btn facebook">
+            <img src="images/facebook.webp" alt="Facebook">
+            Log in with Facebook
+        </button>
+
+        <div class="divider">or</div>
+
+        <button id="emailBtn" class="email-btn">Log in with Email</button>
+    </div>
+
+    <form id="form">
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Password</label>
+        <input type="password" required>
+
+        <a href="#" class="forgot">Forgot password?</a>
+
+        <button type="submit" class="login-btn">Log In</button>
+
+        <div class="divider">or log in with</div>
+
+        <div class="icons">
+            <img src="images/google.webp" alt="Google">
+            <img src="images/facebook.webp" alt="Facebook">
+        </div>
+    </form>
+
+    </div>
+
+    <div id="signupPage" style="display:none;">
+
+    <h1>Sign Up</h1>
+
+    <p>
+        Already a member?
+        <a href="#" id="showLogin">Log In</a>
+    </p>
+
+    <div id="signupSocial">
+
+        <button class="social-btn">
+            <img src="images/google.webp">
+            Sign up with Google
+        </button>
+
+        <button class="social-btn facebook">
+            <img src="images/facebook.webp">
+            Sign up with Facebook
+        </button>
+
+        <div class="divider">or</div>
+
+        <button id="signupEmailBtn" class="email-btn">
+            Sign up with Email
+        </button>
+
+    </div>
+
+    <form id="signupForm">
+
+        <label>Full Name</label>
+        <input type="text">
+
+        <label>Email</label>
+        <input type="email">
+
+        <label>Password</label>
+        <input type="password">
+
+        <label>Confirm Password</label>
+        <input type="password">
+
+        <div class="captcha">
+            <input type="checkbox">
+            <span>I'm not a robot</span>
+        </div>
+
+        <button class="login-btn">
+            Sign Up
+        </button>
+
+        <div class="divider">or sign up with</div>
+
+        <div class="icons">
+            <img src="images/google.webp">
+            <img src="images/facebook.webp">
+        </div>
+
+    </form>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

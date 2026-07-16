@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: white;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+p a {
+    color: gray;
+    text-decoration: none;
+}
+
+.social-btn,
+.email-btn,
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.social-btn {
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.social-btn img {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.facebook {
+    background: #1877F2;
+    color: white;
+    border: none;
+}
+
+.divider {
+    margin: 20px 0;
+    color: #555;
+}
+
+form {
+    display: none;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.forgot {
+    display: block;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.login-btn {
+    background: #6b7265;
+    color: white;
+    border: none;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.captcha{
+
+    border:1px solid #ccc;
+
+    padding:18px;
+
+    margin:20px 0;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.captcha input{
+
+    width:20px;
+
+    height:20px;
+
+}
